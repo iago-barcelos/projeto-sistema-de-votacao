@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * Classe que gerencia a votação.
  */
-public class GerenciamentoVotacao implements GerenciamentoVotacaoInterface{
+public class GerenciamentoVotacao implements GerenciamentoVotacaoInterface {
   private ArrayList<PessoaCandidata> pessoasCandidatas = new ArrayList<PessoaCandidata>();
   private ArrayList<PessoaEleitora> pessoasEleitoras = new ArrayList<PessoaEleitora>();
   private ArrayList<String> cpfsComputados = new ArrayList<String>();
