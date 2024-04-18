@@ -33,16 +33,6 @@ public class PessoaCandidata extends Pessoa {
   }
 
   @Override
-  public boolean equals(Object o) {
-    if (this == o) return true;
-    if (o == null || getClass() != o.getClass()) return false;
-
-    PessoaCandidata that = (PessoaCandidata) o;
-
-    return numero == that.numero;
-  }
-
-  @Override
   public int hashCode() {
     return numero;
   }
